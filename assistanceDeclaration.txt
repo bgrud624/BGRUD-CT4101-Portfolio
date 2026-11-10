@@ -1,0 +1,2 @@
+I did not consult any classmates for help during the creation of the project to this point. I did, however, use Claude to set up the 
+Jupyter Notebook framework that I used to create the model, as well as some of the programming syntax and setup of necessary packages.
