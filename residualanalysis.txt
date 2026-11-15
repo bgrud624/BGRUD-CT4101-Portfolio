@@ -1,0 +1,10 @@
+One area where this model currently underperforms 
+is its lack of sensitivity in classifying people 
+as smokers. As it stands, all of the models are
+consistently giving false negatives (predicting 
+smokers to be non-smokers), which i find more damaging
+than the opposite. in the final stretch of this 
+project, I will re-tune the model to be more sensitive
+to classifying people as smokers to try and resolve
+this. It's also not super precise yet -- under 85%
+precision for all three real models.

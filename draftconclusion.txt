@@ -1,0 +1,20 @@
+Currently, the best model is the random forest one,
+after changing the process on selecting the best 
+model to consider recall along with precision.
+This decision was made because I think false negatives
+are more damaging than false positives with smoking,
+since the applications of such a model include
+sending resources to people who are suspected to be
+smokers, in which case sending the resources to those
+who don't need it is a fine trade off to ensure
+that those who actually do smoke do recieve the 
+resources.
+The next steps include trying to tune the parameters
+of the models to reach 90%+ precision and recall for the
+best performing model, which may include trying out new
+models or applying new concept from class like neural networkd
+with an MLP classifier. This could also involve more
+preprocessing to see whether certain omitted features
+like nationality make a real difference on the results,
+or if removing more features could streamline the models'
+accuracy.
